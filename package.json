@@ -1,0 +1,28 @@
+{
+  "name": "react-native-volume-button",
+  "version": "1.0.0",
+  "description": "Cross-platform React Native volume button detection for iOS and Android",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "volume",
+    "button",
+    "hardware",
+    "ios",
+    "android"
+  ],
+  "author": "Jamil Abram",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "react": "^18.0.0",
+    "react-native": "^0.72.0"
+  }
+}
