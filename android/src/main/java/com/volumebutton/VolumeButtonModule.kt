@@ -11,9 +11,11 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule
 import com.facebook.react.bridge.ReactMethod
 import com.facebook.react.bridge.WritableMap
 import com.facebook.react.bridge.Arguments
+import com.facebook.react.module.annotations.ReactModule
 import android.os.Handler
 import android.os.Looper
 
+@ReactModule(name = VolumeButtonModule.MODULE_NAME)
 class VolumeButtonModule(reactContext: ReactApplicationContext) : ReactContextBaseJavaModule(reactContext) {
     
     private val audioManager: AudioManager = reactContext.getSystemService(Context.AUDIO_SERVICE) as AudioManager
